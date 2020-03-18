@@ -34,7 +34,7 @@ function install()
 
     # precompile
     @info "Bereite alle Pakete vor...."
-    # pkg"precompile"
+    pkg"precompile"
 end
 
 
@@ -56,7 +56,7 @@ function install_overwrite()
 
     # precompile
     @info "Bereite alle Pakete vor...."
-    # pkg"precompile"
+    pkg"precompile"
 end
 
 nothing
