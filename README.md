@@ -8,4 +8,4 @@ Kurswebseite: http://www.thp.uni-koeln.de/trebst/Lectures/2020-CompPhys.shtml
 
 ## Live Ausführung (Beta)
 
-Klicken Sie auf [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/crstnbr/JuliaOulu20/master) um direkt in die Materialien der Veranstaltung einzutauchen.
+Klicken Sie auf [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/trebst/compphys-2020/master) um direkt in die Materialien der Veranstaltung einzutauchen.
