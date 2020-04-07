@@ -2,7 +2,7 @@
 
 Vorlesung **Computer-Physik**, Universität zu Köln, Sommer 2020
 
-Kurswebseite: http://www.thp.uni-koeln.de/trebst/Lectures/2019-CompPhys.shtml
+Kurswebseite: http://www.thp.uni-koeln.de/trebst/Lectures/2020-CompPhys.shtml
 
 
 
