@@ -22,15 +22,13 @@ function rm_global_env()
     nothing
 end
 
-"""
-Installs all correct versions of our package dependencies.
-"""
+# Installs all correct versions of our package dependencies.
 function install()
     activate_global_env()
 
     # add all pkgs with specific versions (not pinned)
     @info "Installiere alle Pakete..."
-    pkg"add BenchmarkTools@0.5.0 CSV@0.5.26 ColorTypes@0.10.0 Cubature@1.4.1 DataFrames@0.20.2 Distributions@0.22.5 FFTW@1.2.0 Formatting@0.4.1 HDF5@0.13.0 LaTeXStrings@1.1.0 ProgressMeter@1.2.0 QuantumOptics@0.7.1 PyCall@1.91.4 PyPlot@2.8.2 Traceur@0.3.0 ProfileView@0.4.1"
+    pkg"add HDF5@0.13.0 CSV@0.5.26 Cubature@1.4.1 Distributions@0.22.5 CSVFiles@1.0.0 BenchmarkTools@0.5.0 Measurements@2.2.0 Formatting@0.4.1 PyCall@1.91.4 LaTeXStrings@1.1.0 Traceur@0.3.0 ColorTypes@0.10.0 LsqFit@0.10.0 PyPlot@2.8.2 Polynomials@0.6.1 ProgressMeter@1.2.0 DifferentialEquations@6.11.0 ExcelFiles@1.0.0 DataFrames@0.20.2 QuantumOptics@0.7.1 FFTW@1.2.0"
 
     # precompile
     @info "Bereite alle Pakete vor...."
@@ -38,10 +36,8 @@ function install()
 end
 
 
-"""
-Installs all correct versions of our package dependencies
-by overwriting(!) the existing global environment.
-"""
+# Installs all correct versions of our package dependencies
+# by overwriting(!) the existing global environment.
 function install_overwrite()
     rm_global_env()
     activate_global_env()
@@ -52,7 +48,7 @@ function install_overwrite()
 
     # add all pkgs with specific versions (not pinned)
     @info "Installiere alle Pakete..."
-    pkg"add BenchmarkTools@0.5.0 CSV@0.5.26 ColorTypes@0.10.0 Cubature@1.4.1 DataFrames@0.20.2 Distributions@0.22.5 FFTW@1.2.0 Formatting@0.4.1 HDF5@0.13.0 LaTeXStrings@1.1.0 ProgressMeter@1.2.0 QuantumOptics@0.7.1 PyCall@1.91.4 PyPlot@2.8.2 Traceur@0.3.0 ProfileView@0.4.1"
+    pkg"add HDF5@0.13.0 CSV@0.5.26 Cubature@1.4.1 Distributions@0.22.5 CSVFiles@1.0.0 BenchmarkTools@0.5.0 Measurements@2.2.0 Formatting@0.4.1 PyCall@1.91.4 LaTeXStrings@1.1.0 Traceur@0.3.0 ColorTypes@0.10.0 LsqFit@0.10.0 PyPlot@2.8.2 Polynomials@0.6.1 ProgressMeter@1.2.0 DifferentialEquations@6.11.0 ExcelFiles@1.0.0 DataFrames@0.20.2 QuantumOptics@0.7.1 FFTW@1.2.0"
 
     # precompile
     @info "Bereite alle Pakete vor...."
